@@ -1,0 +1,297 @@
+Unsupposrted library path: /Users/colinwong/Projects/Minecraft/EntityTesting/build/classes/api
+Unsupposrted library path: /Users/colinwong/Projects/Minecraft/EntityTesting/build/resources/api
+Symbol range map extraction starting
+Processing 5 files
+startProcessing "democat/entitytest/EntityTesting.java" md5: 242a2dce393e923a846c9ec7742f6231
+@|democat/entitytest/EntityTesting.java|8|26|democat.entitytest|package|democat.entitytest|(file)
+Class Start: democat.entitytest.EntityTesting
+   @|democat/entitytest/EntityTesting.java|476|479|Mod|class|net.minecraftforge.fml.common.Mod|false
+   @|democat/entitytest/EntityTesting.java|480|485|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|democat/entitytest/EntityTesting.java|488|501|EntityTesting|class|democat.entitytest.EntityTesting|false
+   @|democat/entitytest/EntityTesting.java|502|507|MODID|field|democat.entitytest.EntityTesting|MODID
+   @|democat/entitytest/EntityTesting.java|509|513|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|democat/entitytest/EntityTesting.java|516|529|EntityTesting|class|democat.entitytest.EntityTesting|false
+   @|democat/entitytest/EntityTesting.java|530|534|NAME|field|democat.entitytest.EntityTesting|NAME
+   @|democat/entitytest/EntityTesting.java|536|543|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|democat/entitytest/EntityTesting.java|546|559|EntityTesting|class|democat.entitytest.EntityTesting|false
+   @|democat/entitytest/EntityTesting.java|560|567|VERSION|field|democat.entitytest.EntityTesting|VERSION
+   @|democat/entitytest/EntityTesting.java|582|595|EntityTesting|class|democat.entitytest.EntityTesting|false
+   @|democat/entitytest/EntityTesting.java|622|628|String|class|java.lang.String|false
+   @|democat/entitytest/EntityTesting.java|622|628|String|class|java.lang.String|false
+   @|democat/entitytest/EntityTesting.java|629|634|MODID|field|democat.entitytest.EntityTesting|MODID|
+   @|democat/entitytest/EntityTesting.java|675|681|String|class|java.lang.String|false
+   @|democat/entitytest/EntityTesting.java|675|681|String|class|java.lang.String|false
+   @|democat/entitytest/EntityTesting.java|682|686|NAME|field|democat.entitytest.EntityTesting|NAME|
+   @|democat/entitytest/EntityTesting.java|731|737|String|class|java.lang.String|false
+   @|democat/entitytest/EntityTesting.java|731|737|String|class|java.lang.String|false
+   @|democat/entitytest/EntityTesting.java|738|745|VERSION|field|democat.entitytest.EntityTesting|VERSION|
+   @|democat/entitytest/EntityTesting.java|776|782|Logger|class|org.apache.logging.log4j.Logger|false
+   @|democat/entitytest/EntityTesting.java|776|782|Logger|class|org.apache.logging.log4j.Logger|false
+   @|democat/entitytest/EntityTesting.java|783|789|logger|field|democat.entitytest.EntityTesting|logger|
+   Method Start: EntityTesting()V
+      @|democat/entitytest/EntityTesting.java|803|816|EntityTesting|method|democat.entitytest.EntityTesting|EntityTesting|()V
+      @|democat/entitytest/EntityTesting.java|829|843|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|democat/entitytest/EntityTesting.java|844|853|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|democat/entitytest/EntityTesting.java|854|862|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|democat/entitytest/EntityTesting.java|867|885|EntityEventHandler|class|democat.entitytest.handlers.EntityEventHandler|false
+      @|democat/entitytest/EntityTesting.java|898|912|MinecraftForge|class|net.minecraftforge.common.MinecraftForge|false
+      @|democat/entitytest/EntityTesting.java|913|922|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|democat/entitytest/EntityTesting.java|923|931|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|democat/entitytest/EntityTesting.java|936|947|MainHandler|class|democat.entitytest.handlers.MainHandler|false
+   Method End: EntityTesting()V
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|democat/entitytest/EntityTesting.java|1027|1032|event|param|democat.entitytest.EntityTesting|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|democat/entitytest/EntityTesting.java|964|976|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|democat/entitytest/EntityTesting.java|993|1000|preInit|method|democat.entitytest.EntityTesting|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|democat/entitytest/EntityTesting.java|1001|1026|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|democat/entitytest/EntityTesting.java|1048|1054|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/EntityTesting.java|1057|1062|event|param|democat.entitytest.EntityTesting|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|democat/entitytest/EntityTesting.java|1063|1072|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+      @|democat/entitytest/EntityTesting.java|1085|1098|ConfigHandler|class|democat.entitytest.config.ConfigHandler|false
+      @|democat/entitytest/EntityTesting.java|1099|1105|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/EntityTesting.java|1112|1158|net.minecraftforge.common.config.Configuration|class|net.minecraftforge.common.config.Configuration|false
+      @|democat/entitytest/EntityTesting.java|1159|1164|event|param|democat.entitytest.EntityTesting|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|democat/entitytest/EntityTesting.java|1165|1194|getSuggestedConfigurationFile|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getSuggestedConfigurationFile|()Ljava/io/File;
+      @|democat/entitytest/EntityTesting.java|1207|1220|ConfigHandler|class|democat.entitytest.config.ConfigHandler|false
+      @|democat/entitytest/EntityTesting.java|1221|1232|initConfigs|method|democat.entitytest.config.ConfigHandler|initConfigs|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|democat/entitytest/EntityTesting.java|1305|1310|event|param|democat.entitytest.EntityTesting|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|democat/entitytest/EntityTesting.java|1248|1260|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler|false
+      @|democat/entitytest/EntityTesting.java|1277|1281|init|method|democat.entitytest.EntityTesting|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|democat/entitytest/EntityTesting.java|1282|1304|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent|false
+      @|democat/entitytest/EntityTesting.java|1355|1361|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/EntityTesting.java|1362|1366|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|democat/entitytest/EntityTesting.java|1387|1393|Blocks|class|net.minecraft.init.Blocks|false
+      @|democat/entitytest/EntityTesting.java|1394|1398|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|democat/entitytest/EntityTesting.java|1399|1414|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|democat/entitytest/EntityTesting.java|1427|1433|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/EntityTesting.java|1434|1438|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : democat.entitytest.EntityTesting
+endProcessing "democat/entitytest/EntityTesting.java"
+
+startProcessing "democat/entitytest/config/ConfigHandler.java" md5: d71006a6d4292d6c3030589c882222cf
+@|democat/entitytest/config/ConfigHandler.java|8|33|democat.entitytest.config|package|democat.entitytest.config|(file)
+Class Start: democat.entitytest.config.ConfigHandler
+   @|democat/entitytest/config/ConfigHandler.java|202|215|ConfigHandler|class|democat.entitytest.config.ConfigHandler|false
+   @|democat/entitytest/config/ConfigHandler.java|236|282|net.minecraftforge.common.config.Configuration|class|net.minecraftforge.common.config.Configuration|false
+   @|democat/entitytest/config/ConfigHandler.java|236|282|net.minecraftforge.common.config.Configuration|class|net.minecraftforge.common.config.Configuration|false
+   @|democat/entitytest/config/ConfigHandler.java|283|289|config|field|democat.entitytest.config.ConfigHandler|config|
+   @|democat/entitytest/config/ConfigHandler.java|317|323|String|class|java.lang.String|false
+   @|democat/entitytest/config/ConfigHandler.java|317|323|String|class|java.lang.String|false
+   @|democat/entitytest/config/ConfigHandler.java|324|339|CATEGORY_MOBMSG|field|democat.entitytest.config.ConfigHandler|CATEGORY_MOBMSG|
+   Method Start: initConfigs()V
+      @|democat/entitytest/config/ConfigHandler.java|377|388|initConfigs|method|democat.entitytest.config.ConfigHandler|initConfigs|()V
+      @|democat/entitytest/config/ConfigHandler.java|405|411|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/config/ConfigHandler.java|435|448|EntityTesting|class|democat.entitytest.EntityTesting|false
+      @|democat/entitytest/config/ConfigHandler.java|449|455|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/config/ConfigHandler.java|456|459|log|method|org.apache.logging.log4j.Logger|log|(Lorg/apache/logging/log4j/Level;Ljava/lang/String;)V
+      @|democat/entitytest/config/ConfigHandler.java|460|465|Level|class|org.apache.logging.log4j.Level|false
+      @|democat/entitytest/config/ConfigHandler.java|466|471|ERROR|field|org.apache.logging.log4j.Level|ERROR
+      @|democat/entitytest/config/ConfigHandler.java|573|579|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/config/ConfigHandler.java|580|584|load|method|net.minecraftforge.common.config.Configuration|load|()V
+      @|democat/entitytest/config/ConfigHandler.java|597|610|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/config/ConfigHandler.java|611|626|mobMessageTimer|field|democat.entitytest.config.Configuration|mobMessageTimer
+      @|democat/entitytest/config/ConfigHandler.java|629|635|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/config/ConfigHandler.java|636|642|getInt|method|net.minecraftforge.common.config.Configuration|getInt|(Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)I
+      @|democat/entitytest/config/ConfigHandler.java|664|679|CATEGORY_MOBMSG|field|democat.entitytest.config.ConfigHandler|CATEGORY_MOBMSG
+      @|democat/entitytest/config/ConfigHandler.java|690|697|Integer|class|java.lang.Integer|false
+      @|democat/entitytest/config/ConfigHandler.java|698|707|MAX_VALUE|field|java.lang.Integer|MAX_VALUE
+      @|democat/entitytest/config/ConfigHandler.java|765|771|String|class|java.lang.String|false
+      @|democat/entitytest/config/ConfigHandler.java|776|782|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/config/ConfigHandler.java|783|796|getStringList|method|net.minecraftforge.common.config.Configuration|getStringList|(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+      @|democat/entitytest/config/ConfigHandler.java|813|828|CATEGORY_MOBMSG|field|democat.entitytest.config.ConfigHandler|CATEGORY_MOBMSG
+      @|democat/entitytest/config/ConfigHandler.java|834|840|String|class|java.lang.String|false
+      @|democat/entitytest/config/ConfigHandler.java|1064|1072|endsWith|method|java.lang.String|endsWith|(Ljava/lang/String;)Z
+      @|democat/entitytest/config/ConfigHandler.java|1091|1097|String|class|java.lang.String|false
+      @|democat/entitytest/config/ConfigHandler.java|1110|1115|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|democat/entitytest/config/ConfigHandler.java|1134|1150|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|democat/entitytest/config/ConfigHandler.java|1164|1180|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|democat/entitytest/config/ConfigHandler.java|1209|1222|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/config/ConfigHandler.java|1223|1234|mobMessages|field|democat.entitytest.config.Configuration|mobMessages
+      @|democat/entitytest/config/ConfigHandler.java|1235|1246|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|democat/entitytest/config/ConfigHandler.java|1272|1285|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/config/ConfigHandler.java|1286|1297|mobMessages|field|democat.entitytest.config.Configuration|mobMessages
+      @|democat/entitytest/config/ConfigHandler.java|1298|1301|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|democat/entitytest/config/ConfigHandler.java|1314|1321|HashMap|class|java.util.HashMap|false
+      @|democat/entitytest/config/ConfigHandler.java|1345|1358|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/config/ConfigHandler.java|1359|1370|mobMessages|field|democat.entitytest.config.Configuration|mobMessages
+      @|democat/entitytest/config/ConfigHandler.java|1371|1374|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|democat/entitytest/config/ConfigHandler.java|1383|1394|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|democat/entitytest/config/ConfigHandler.java|1422|1435|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/config/ConfigHandler.java|1436|1447|mobMessages|field|democat.entitytest.config.Configuration|mobMessages
+      @|democat/entitytest/config/ConfigHandler.java|1448|1451|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|democat/entitytest/config/ConfigHandler.java|1460|1463|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|democat/entitytest/config/ConfigHandler.java|1486|1493|Integer|class|java.lang.Integer|false
+      @|democat/entitytest/config/ConfigHandler.java|1494|1502|parseInt|method|java.lang.Integer|parseInt|(Ljava/lang/String;)I
+      @|democat/entitytest/config/ConfigHandler.java|1554|1567|EntityTesting|class|democat.entitytest.EntityTesting|false
+      @|democat/entitytest/config/ConfigHandler.java|1568|1574|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/config/ConfigHandler.java|1575|1578|log|method|org.apache.logging.log4j.Logger|log|(Lorg/apache/logging/log4j/Level;Ljava/lang/String;)V
+      @|democat/entitytest/config/ConfigHandler.java|1579|1584|Level|class|org.apache.logging.log4j.Level|false
+      @|democat/entitytest/config/ConfigHandler.java|1585|1589|WARN|field|org.apache.logging.log4j.Level|WARN
+      @|democat/entitytest/config/ConfigHandler.java|1662|1668|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/config/ConfigHandler.java|1669|1673|save|method|net.minecraftforge.common.config.Configuration|save|()V
+   Method End: initConfigs()V
+Class End  : democat.entitytest.config.ConfigHandler
+endProcessing "democat/entitytest/config/ConfigHandler.java"
+
+startProcessing "democat/entitytest/config/Configuration.java" md5: 6193397d877062979310ddf7aae3a751
+@|democat/entitytest/config/Configuration.java|8|33|democat.entitytest.config|package|democat.entitytest.config|(file)
+Class Start: democat.entitytest.config.Configuration
+   @|democat/entitytest/config/Configuration.java|143|156|Configuration|class|democat.entitytest.config.Configuration|false
+   @|democat/entitytest/config/Configuration.java|181|197|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|democat/entitytest/config/Configuration.java|203|209|String|class|java.lang.String|false
+   @|democat/entitytest/config/Configuration.java|211|218|Integer|class|java.lang.Integer|false
+   @|democat/entitytest/config/Configuration.java|199|202|Map|class|java.util.Map|false
+   @|democat/entitytest/config/Configuration.java|177|180|Map|class|java.util.Map|false
+   @|democat/entitytest/config/Configuration.java|177|180|Map|class|java.util.Map|false
+   @|democat/entitytest/config/Configuration.java|181|197|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+   @|democat/entitytest/config/Configuration.java|199|202|Map|class|java.util.Map|false
+   @|democat/entitytest/config/Configuration.java|203|209|String|class|java.lang.String|false
+   @|democat/entitytest/config/Configuration.java|211|218|Integer|class|java.lang.Integer|false
+   @|democat/entitytest/config/Configuration.java|221|232|mobMessages|field|democat.entitytest.config.Configuration|mobMessages|
+   @|democat/entitytest/config/Configuration.java|239|246|HashMap|class|java.util.HashMap|false
+   @|democat/entitytest/config/Configuration.java|274|289|mobMessageTimer|field|democat.entitytest.config.Configuration|mobMessageTimer|
+Class End  : democat.entitytest.config.Configuration
+endProcessing "democat/entitytest/config/Configuration.java"
+
+startProcessing "democat/entitytest/handlers/EntityEventHandler.java" md5: bcf2bd2d06b4fdfc94da446209f7744d
+@|democat/entitytest/handlers/EntityEventHandler.java|8|35|democat.entitytest.handlers|package|democat.entitytest.handlers|(file)
+Class Start: democat.entitytest.handlers.EntityEventHandler
+   @|democat/entitytest/handlers/EntityEventHandler.java|637|655|EntityEventHandler|class|democat.entitytest.handlers.EntityEventHandler|false
+   @|democat/entitytest/handlers/EntityEventHandler.java|666|680|entityMsgTimer|field|democat.entitytest.handlers.EntityEventHandler|entityMsgTimer|
+   Method Start: EntityEventHandler()V
+      @|democat/entitytest/handlers/EntityEventHandler.java|694|712|EntityEventHandler|method|democat.entitytest.handlers.EntityEventHandler|EntityEventHandler|()V
+      @|democat/entitytest/handlers/EntityEventHandler.java|725|739|entityMsgTimer|field|democat.entitytest.handlers.EntityEventHandler|entityMsgTimer
+      @|democat/entitytest/handlers/EntityEventHandler.java|742|755|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|756|771|mobMessageTimer|field|democat.entitytest.config.Configuration|mobMessageTimer
+   Method End: EntityEventHandler()V
+   Method Start: pickupItem(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|849|854|event|param|democat.entitytest.handlers.EntityEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|785|799|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|816|826|pickupItem|method|democat.entitytest.handlers.EntityEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|827|848|EntityItemPickupEvent|class|net.minecraftforge.event.entity.player.EntityItemPickupEvent|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|866|872|String|class|java.lang.String|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|893|898|event|param|democat.entitytest.handlers.EntityEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|899|906|getItem|method|net.minecraftforge.event.entity.player.EntityItemPickupEvent|getItem|()Lnet/minecraft/entity/item/EntityItem;
+      @|democat/entitytest/handlers/EntityEventHandler.java|909|923|getDisplayName|method|net.minecraft.command.ICommandSender|getDisplayName|()Lnet/minecraft/util/text/ITextComponent;
+      @|democat/entitytest/handlers/EntityEventHandler.java|926|942|getFormattedText|method|net.minecraft.util.text.ITextComponent|getFormattedText|()Ljava/lang/String;
+      @|democat/entitytest/handlers/EntityEventHandler.java|979|984|event|param|democat.entitytest.handlers.EntityEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|985|994|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|democat/entitytest/handlers/EntityEventHandler.java|997|1008|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1013|1032|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+   Method End: pickupItem(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+   Method Start: onInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1133|1138|event|param|democat.entitytest.handlers.EntityEventHandler|onInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|1056|1070|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1087|1097|onInteract|method|democat.entitytest.handlers.EntityEventHandler|onInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1098|1132|PlayerInteractEvent.EntityInteract|class|net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteract|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1150|1161|EntityEntry|class|net.minecraftforge.fml.common.registry.EntityEntry|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1167|1181|EntityRegistry|class|net.minecraftforge.fml.common.registry.EntityRegistry|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1182|1190|getEntry|method|net.minecraftforge.fml.common.registry.EntityRegistry|getEntry|(Ljava/lang/Class;)Lnet/minecraftforge/fml/common/registry/EntityEntry;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1191|1196|event|param|democat.entitytest.handlers.EntityEventHandler|onInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|1197|1206|getTarget|method|net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteract|getTarget|()Lnet/minecraft/entity/Entity;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1209|1217|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1230|1243|EntityTesting|class|democat.entitytest.EntityTesting|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1244|1250|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/handlers/EntityEventHandler.java|1251|1254|log|method|org.apache.logging.log4j.Logger|log|(Lorg/apache/logging/log4j/Level;Ljava/lang/Object;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1255|1260|Level|class|org.apache.logging.log4j.Level|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1261|1266|DEBUG|field|org.apache.logging.log4j.Level|DEBUG
+      @|democat/entitytest/handlers/EntityEventHandler.java|1351|1364|EntityTesting|class|democat.entitytest.EntityTesting|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1365|1371|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/handlers/EntityEventHandler.java|1372|1375|log|method|org.apache.logging.log4j.Logger|log|(Lorg/apache/logging/log4j/Level;Ljava/lang/String;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1376|1381|Level|class|org.apache.logging.log4j.Level|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1382|1387|DEBUG|field|org.apache.logging.log4j.Level|DEBUG
+      @|democat/entitytest/handlers/EntityEventHandler.java|1426|1441|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1459|1473|entityMsgTimer|field|democat.entitytest.handlers.EntityEventHandler|entityMsgTimer
+      @|democat/entitytest/handlers/EntityEventHandler.java|1496|1509|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1510|1521|mobMessages|field|democat.entitytest.config.Configuration|mobMessages
+      @|democat/entitytest/handlers/EntityEventHandler.java|1522|1533|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|democat/entitytest/handlers/EntityEventHandler.java|1537|1552|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1571|1577|String|class|java.lang.String|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1588|1610|randomStringWithWeight|method|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1611|1624|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1625|1636|mobMessages|field|democat.entitytest.config.Configuration|mobMessages
+      @|democat/entitytest/handlers/EntityEventHandler.java|1637|1640|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1644|1659|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1677|1690|EntityTesting|class|democat.entitytest.EntityTesting|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1691|1697|logger|field|democat.entitytest.EntityTesting|logger
+      @|democat/entitytest/handlers/EntityEventHandler.java|1698|1701|log|method|org.apache.logging.log4j.Logger|log|(Lorg/apache/logging/log4j/Level;Ljava/lang/String;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1702|1707|Level|class|org.apache.logging.log4j.Level|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1708|1713|DEBUG|field|org.apache.logging.log4j.Level|DEBUG
+      @|democat/entitytest/handlers/EntityEventHandler.java|1794|1799|event|param|democat.entitytest.handlers.EntityEventHandler|onInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|1800|1809|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|democat/entitytest/handlers/EntityEventHandler.java|1812|1823|sendMessage|method|net.minecraft.command.ICommandSender|sendMessage|(Lnet/minecraft/util/text/ITextComponent;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1828|1847|TextComponentString|class|net.minecraft.util.text.TextComponentString|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1872|1886|entityMsgTimer|field|democat.entitytest.handlers.EntityEventHandler|entityMsgTimer
+      @|democat/entitytest/handlers/EntityEventHandler.java|1889|1902|Configuration|class|democat.entitytest.config.Configuration|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1903|1918|mobMessageTimer|field|democat.entitytest.config.Configuration|mobMessageTimer
+   Method End: onInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$EntityInteract;)V
+   Method Start: tickEvent(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1993|1998|event|param|democat.entitytest.handlers.EntityEventHandler|tickEvent|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V|event|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|1942|1956|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|1973|1982|tickEvent|method|democat.entitytest.handlers.EntityEventHandler|tickEvent|(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+      @|democat/entitytest/handlers/EntityEventHandler.java|1983|1992|TickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2014|2028|entityMsgTimer|field|democat.entitytest.handlers.EntityEventHandler|entityMsgTimer
+      @|democat/entitytest/handlers/EntityEventHandler.java|2034|2048|entityMsgTimer|field|democat.entitytest.handlers.EntityEventHandler|entityMsgTimer
+   Method End: tickEvent(Lnet/minecraftforge/fml/common/gameevent/TickEvent;)V
+   Method Start: randomStringWithWeight(Ljava/util/Map;)Ljava/lang/String;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2121|2128|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2070|2076|String|class|java.lang.String|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2077|2099|randomStringWithWeight|method|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2100|2103|Map|class|java.util.Map|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2104|2110|String|class|java.lang.String|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2112|2119|Integer|class|java.lang.Integer|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2144|2151|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2152|2156|size|method|java.util.Map|size|()I
+      @|democat/entitytest/handlers/EntityEventHandler.java|2186|2190|Math|class|java.lang.Math|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2191|2197|random|method|java.lang.Math|random|()D
+      @|democat/entitytest/handlers/EntityEventHandler.java|2203|2210|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2211|2217|values|method|java.util.Map|values|()Ljava/util/Collection;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2220|2227|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2232|2239|Integer|class|java.lang.Integer|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2255|2262|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2263|2269|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2272|2279|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2284|2290|String|class|java.lang.String|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2368|2375|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2376|2382|values|method|java.util.Map|values|()Ljava/util/Collection;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2451|2458|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2459|2470|containsKey|method|java.util.Map|containsKey|(Ljava/lang/Object;)Z
+      @|democat/entitytest/handlers/EntityEventHandler.java|2488|2495|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2496|2499|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2545|2549|Math|class|java.lang.Math|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2550|2556|random|method|java.lang.Math|random|()D
+      @|democat/entitytest/handlers/EntityEventHandler.java|2621|2627|String|class|java.lang.String|false
+      @|democat/entitytest/handlers/EntityEventHandler.java|2634|2641|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2642|2648|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|democat/entitytest/handlers/EntityEventHandler.java|2681|2688|strings|param|democat.entitytest.handlers.EntityEventHandler|randomStringWithWeight|(Ljava/util/Map;)Ljava/lang/String;|strings|0
+      @|democat/entitytest/handlers/EntityEventHandler.java|2689|2692|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+   Method End: randomStringWithWeight(Ljava/util/Map;)Ljava/lang/String;
+Class End  : democat.entitytest.handlers.EntityEventHandler
+endProcessing "democat/entitytest/handlers/EntityEventHandler.java"
+
+startProcessing "democat/entitytest/handlers/MainHandler.java" md5: 537c05595306fe9286b5cbfab7b9a707
+@|democat/entitytest/handlers/MainHandler.java|8|35|democat.entitytest.handlers|package|democat.entitytest.handlers|(file)
+Class Start: democat.entitytest.handlers.MainHandler
+   @|democat/entitytest/handlers/MainHandler.java|270|281|MainHandler|class|democat.entitytest.handlers.MainHandler|false
+   Method Start: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+      @|democat/entitytest/handlers/MainHandler.java|355|360|event|param|democat.entitytest.handlers.MainHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|event|0
+      @|democat/entitytest/handlers/MainHandler.java|289|303|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent|false
+      @|democat/entitytest/handlers/MainHandler.java|320|335|onConfigChanged|method|democat.entitytest.handlers.MainHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+      @|democat/entitytest/handlers/MainHandler.java|336|354|ConfigChangedEvent|class|net.minecraftforge.fml.client.event.ConfigChangedEvent|false
+      @|democat/entitytest/handlers/MainHandler.java|376|381|event|param|democat.entitytest.handlers.MainHandler|onConfigChanged|(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V|event|0
+      @|democat/entitytest/handlers/MainHandler.java|382|390|getModID|method|net.minecraftforge.fml.client.event.ConfigChangedEvent|getModID|()Ljava/lang/String;
+      @|democat/entitytest/handlers/MainHandler.java|393|399|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|democat/entitytest/handlers/MainHandler.java|400|413|EntityTesting|class|democat.entitytest.EntityTesting|false
+      @|democat/entitytest/handlers/MainHandler.java|414|419|MODID|field|democat.entitytest.EntityTesting|MODID
+      @|democat/entitytest/handlers/MainHandler.java|436|449|ConfigHandler|class|democat.entitytest.config.ConfigHandler|false
+      @|democat/entitytest/handlers/MainHandler.java|450|456|config|field|democat.entitytest.config.ConfigHandler|config
+      @|democat/entitytest/handlers/MainHandler.java|457|461|save|method|net.minecraftforge.common.config.Configuration|save|()V
+      @|democat/entitytest/handlers/MainHandler.java|477|490|ConfigHandler|class|democat.entitytest.config.ConfigHandler|false
+      @|democat/entitytest/handlers/MainHandler.java|491|502|initConfigs|method|democat.entitytest.config.ConfigHandler|initConfigs|()V
+   Method End: onConfigChanged(Lnet/minecraftforge/fml/client/event/ConfigChangedEvent;)V
+Class End  : democat.entitytest.handlers.MainHandler
+endProcessing "democat/entitytest/handlers/MainHandler.java"
+
